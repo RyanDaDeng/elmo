@@ -21,7 +21,7 @@
 
 ## Installation
 1. Create your .env file
-2. run composer install
+2. run composer install and php artisan key:generate
 3. config your database, and run php artisan migrate
 4. go to your host, you should see the project. (the project has already contained compiled js file.)
 
