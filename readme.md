@@ -23,13 +23,16 @@
 1. Create your .env file
 2. run composer install
 3. config your database, and run php artisan migrate
-4. run npm install
-5. Go to webpack.mix.js:
+4. go to your host, you should see the project. (the project has already contained compiled js file.)
+
+If you want to compile locally, you could do the following:
+5. run npm install
+6. Go to webpack.mix.js:
 
 ````
 mix.browserSync('http://elmo.test/'); change the url to your local host
 ````
-6. npm run watch (this might require you to run twice, after that, you should see a pop-up window, if you can't, just go to your host)
+7. npm run watch (this might require you to run twice, after that, you should see a pop-up window, if you can't, just go to your host)
 
 
 ## Guide
