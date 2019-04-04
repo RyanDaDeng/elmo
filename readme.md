@@ -23,7 +23,7 @@
 1. Create your .env file
 2. run composer install and php artisan key:generate
 3. config your database, and run php artisan migrate
-4. run php artisan serve, go to your host, you should see the project. (the project has already contained compiled js file.)
+4. run php artisan serve, go to your host with route /app, you should see the project. (the project has already contained compiled js file.)
 
 If you want to compile locally, you could do the following:
 1. run npm install
