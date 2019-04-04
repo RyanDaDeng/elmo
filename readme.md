@@ -35,7 +35,7 @@ mix.browserSync('http://elmo.test/'); change the url to your local host
 
 
 ## Guide
-1. Go to route /app, register an account 
+1. Go to route: http://{{Your.Host}}/app, register an account 
 2. You can create, edit, view dynamic form.
 3. There is a default json schema defined when you click "create a dynamic form"
 
