@@ -35,8 +35,9 @@ mix.browserSync('http://elmo.test/'); change the url to your local host
 
 
 ## Guide
-1. Go to /app, register an account 
-2. You can create a dynamic form by using JSON structure
+1. Go to route /app, register an account 
+2. You can create, edit, view dynamic form.
+3. The data is doing two-way and props binding based on component communication.
 
 
 ## TODO
@@ -60,6 +61,7 @@ Due to time limit, the following hasn't been finished:
 2. The assessment can be extended in many ways, I am not entirely certain which part(front-end/back-end) I should mainly focus on, so my overall strategy is to finish a low-fidelity prototype to primarily have function to work.
 3. The UI builder which is using JSON as strategy as its much simple for me to implement, it can be fancy UI e.g. Survey Monkey style or Google form style.
 4. If the requirement is SPA (single page application) which would increase a lot complexity.
+5. vuex state management is not used here as I think $emit is enough to handle the assessment.
 
 ## Overall
 Thanks for reading it.
