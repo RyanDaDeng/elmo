@@ -13,10 +13,10 @@
 1. resources/js
 
 #### Solution
-1. Back-end uses modular basis strategy, this inspired by https://github.com/nWidart/laravel-modules, however, the solution does not use this lib as its a bit overkill for the assessment, so I manually created module by module. 
+1. Back-end uses modular basis strategy (which is similar to package development)
 2. Front-end uses Vuejs as Laravel natively support it, so it comes in handy.
 3. Bootstrap-vue is used for Table controller, however, its a bit overkill after I finish the project. The bootstrap is already enough.
-4. Front-end splits widgets in different component-based file, so they can be applied from different type in JSON schema without touching core code. (This follows Strategy/component concept, however, the code is still a bit messy, can be further be improved.)
+4. Front-end splits widgets in different component-based file, so they can be applied from different type in JSON schema without touching core code. (This follows Strategy/component concept.)
 5. The front-end can have api.js component to centralise all APIs instead of using axios calling endpoint in different places.
 
 ## Installation
