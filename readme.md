@@ -37,6 +37,7 @@ mix.browserSync('http://elmo.test/'); change the url to your local host
 ## Guide
 1. Go to route /app, register an account 
 2. You can create, edit, view dynamic form.
+3. There is a default json schema defined when you click "create a dynamic form"
 
 
 ## TODO
@@ -64,5 +65,10 @@ Due to time limit, the following hasn't been finished:
 6. The front-end can have api.js component to centralise all APIs instead of using axios calling endpoint in different places.
 
 ## Overall
-Thanks for reading it.
+The difficulty of ssessment is average level. I can think about so many details to improve the solution e.g. json schema validation on both frontend and backend, Form builder with fancy control UI, branching lgoic etc. 
+
+It is a good exercise alough I didn't finish all the requirements.
+
+
+
 
