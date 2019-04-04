@@ -49,12 +49,15 @@ Due to time limit, the following hasn't been finished:
 ## Resources I used:
 1. My own Boilerplate https://github.com/RyanDaDeng/laravel-seo-meta-management
 2. Some ideas from API module generator https://github.com/RyanDaDeng/laravel-api-module-generator
+3. Initial modular idea from: https://github.com/nWidart/laravel-modules
+4. Bootstrap-vue: https://bootstrap-vue.js.org/
 
 
 ## Reflection
 1. This assessment seems to have more weight on front-end as it requires a form builder and save form in DB, so it is not a data-driven dynamic form. I have previously implemented data-driven dynamic form which is different approach to the assessment requirement.
 2. The assessment can be extended in many ways, I am not entirely certain which part(front-end/back-end) I should mainly focus on, so my overall strategy is to finish a low-fidelity prototype to primarily have function to work.
 3. The UI builder which is using JSON as strategy as its much simple for me to implement, it can be fancy UI e.g. Survey Monkey style or Google form style.
+4. If the requirement is SPA (single page application) which would increase a lot complexity.
 
 ## Overall
 Thanks for reading it.
