@@ -17,7 +17,7 @@
 2. Front-end uses Vuejs as Laravel natively support it, so it comes in handy.
 3. Bootstrap-vue is used for Table controller, however, its a bit overkill after I finish the project. The bootstrap is already enough.
 4. Front-end splits widgets in different component-based file, so they can be applied from different type in JSON schema without touching core code. (This follows Strategy/component concept.)
-5. The front-end can have api.js component to centralise all APIs instead of using axios calling endpoint in different places.
+5. The data is doing two-way and props binding based on component communication.
 
 ## Installation
 1. Create your .env file
@@ -37,7 +37,6 @@ mix.browserSync('http://elmo.test/'); change the url to your local host
 ## Guide
 1. Go to route /app, register an account 
 2. You can create, edit, view dynamic form.
-3. The data is doing two-way and props binding based on component communication.
 
 
 ## TODO
@@ -62,6 +61,7 @@ Due to time limit, the following hasn't been finished:
 3. The UI builder which is using JSON as strategy as its much simple for me to implement, it can be fancy UI e.g. Survey Monkey style or Google form style.
 4. If the requirement is SPA (single page application) which would increase a lot complexity.
 5. vuex state management is not used here as I think $emit is enough to handle the assessment.
+6. The front-end can have api.js component to centralise all APIs instead of using axios calling endpoint in different places.
 
 ## Overall
 Thanks for reading it.
