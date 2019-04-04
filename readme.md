@@ -43,7 +43,7 @@ mix.browserSync('http://elmo.test/'); change the url to your local host
 Due to time limit, the following hasn't been finished:
 
 1. File upload front-end structure has not been fully finished, however, the backend applies factory/template design pattern to handle different input type (Modules/DynamicFormGenerator/Services)
-2. Tests not started, proposed test would be using Laravel's phpunit by call API to compare json data
+2. Tests not started, proposed test would be using Laravel's phpunit by calling API to compare json data
 3. Front-end router is controlled by backend which is located at Modules/UI, however, its better to do it in Front end by using Vue-Router which might increase complexity and time consuming, so I didn't implement it.
 4. File input backend storage structure hasn't been finished, the proposed solution would create user_id/form_id/file_input_field_name format as folder structure
 5. I am not sure what "menu" is.
